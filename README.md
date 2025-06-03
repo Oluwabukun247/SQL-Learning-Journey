@@ -3,11 +3,11 @@
 
 I am excited to share my journey with Digital SkillUp Africa (DSA), the incubator hub. This repository is a documentation of my progress in SQL, understanding and demonstrating real-world tasks, problem-solving, and data-driven decision-making.
 
-### What is SQL?
+### *What is SQL*?
 
 SQL stands for Structure Query Language. It is used to store, retrieve and manage data in relational databases. 
 
-### Basic SQL Commands
+### *Basic SQL Commands*
 
 
 SQL commands are instructions. It is used to communicate with the database. It is also used to perform specific tasks, functions, and queries of data.
