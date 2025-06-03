@@ -40,6 +40,14 @@ ALTER TABLE Salary ALTER COLUMN Salary Decimal(10,3);
 -- Update department
 UPDATE Salary SET Department = 'Information Tech' WHERE Staffid IN ('AB401', 'AB249');
 ```
+```
+DELETE TABLE Employee 
+WHERE Staffid = 'AB212';
+
+TRUNCATE TABLE Employee;
+
+DROP TABLE Employee;
+```
 
 ### *Database and Table Creation*
 Databases store data in a structured format using tables, which are composed of rows and columns. Each table represents a specific type of data, and each row (or record) in the table represents a single entry.
