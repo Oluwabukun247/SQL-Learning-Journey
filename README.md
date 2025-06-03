@@ -41,7 +41,7 @@ ALTER TABLE Salary ALTER COLUMN Salary Decimal(10,3);
 UPDATE Salary SET Department = 'Information Tech' WHERE Staffid IN ('AB401', 'AB249');
 ```
 
-# Database and Table Creation
+### *Database and Table Creation*
 Databases store data in a structured format using tables, which are composed of rows and columns. Each table represents a specific type of data, and each row (or record) in the table represents a single entry.
 
 ```
@@ -107,7 +107,8 @@ SELECT * FROM Salary WHERE Salary < 500000;
 *Tools Used*
 
 
-- *SQL Server* as Database
-- *SSMS (SQL Server Management Studio)* for Query Execution
+- *SQL Server* as Database [ Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- *SSMS (SQL Server Management Studio)* for Query Execution [ Download Here](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms)
+
 
 SQL is more than just a query language; it's a powerful tool for transforming data into decisions.
