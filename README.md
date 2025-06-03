@@ -41,6 +41,37 @@ ALTER TABLE Salary ALTER COLUMN Salary Decimal(10,3);
 UPDATE Salary SET Department = 'Information Tech' WHERE Staffid IN ('AB401', 'AB249');
 ```
 
+# Database and Table Creation
+Databases store data in a structured format using tables, which are composed of rows and columns. Each table represents a specific type of data, and each row (or record) in the table represents a single entry.
+
+```
+CREATE DATABASE DSA_DTA;
+
+CREATE TABLE Employee(
+    Staffid varchar(10),
+    FirstName varchar(100),
+    LastName varchar(100),
+    Gender nvarchar(10),
+    Date_of_Birth date,
+    HireDate date,
+    Primary key (staffid)
+);
+
+INSERT INTO Employee (Staffid, Firstname, Lastname, Gender, Date_of_Birth, Hiredate)
+VALUES 
+    ('AB201', 'ayan', 'olakun', 'female', '1992-08-22', '2018-02-09'),
+    ('AB212', 'okorie', 'mercy', 'female','1988-10-09', '2018-10-09'),
+    ('AB223', 'joshua', 'chukwuemeka', 'male','1980-10-09', '2022-02-09'),
+    ('AB234', 'sanni', 'ibrahim', 'male','1958-10-09', '2019-09-23'),
+    ('AB254', 'mercy', 'olanipekun', 'female','1982-10-09', '2020-02-09'),
+    ('AB249', 'johnson', 'mercy', 'female','1982-10-09', '2019-12-09'),
+    ('AB298', 'ayomide', 'halleluyah', 'female', '1982-10-09','2018-07-11'),
+    ('AB260', 'deborah', 'justin', 'female','1982-10-09', '1988-02-09'),
+    ('AB281', 'wale', 'olanipekun', 'male','1982-10-09', '2018-02-09'),
+    ('AB296', 'Yusuf','olaide','Male','1990-10-10', '2022-01-20'),
+    ('AB294', 'olajide','Ayodeji','Female','1976-10-10', '1990-01-20');
+```
+
 *Business Questions*
 1. *Total number of staff*
 ```
